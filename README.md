@@ -22,7 +22,7 @@ Este projeto apresenta a implementação de um escalonador baseado em prioridade
 
 ---
 
-## 🛠️ Modificações Realizadas
+## Modificações Realizadas
 
 Abaixo está o mapeamento detalhado das modificações efetuadas na estrutura do kernel e do espaço de usuário do xv6:
 
@@ -63,7 +63,7 @@ Abaixo está o mapeamento detalhado das modificações efetuadas na estrutura do
 
 ---
 
-## ⏱️ Nota sobre o Quantum de Tempo do xv6
+## Nota sobre o Quantum de Tempo do xv6
 
 Durante a análise do escalonador original do xv6, constatamos que o **quantum de tempo não é definido de forma explícita** no arquivo do escalonador (`kernel/proc.c`). 
 
@@ -74,7 +74,7 @@ Em vez disso, o sistema conta com uma interrupção periódica gerada por hardwa
 
 ---
 
-## 🚀 Como Executar e Testar
+## Como Executar e Testar
 1. Compile e execute o xv6:
    ```bash
    make qemu
