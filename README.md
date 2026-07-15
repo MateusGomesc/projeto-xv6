@@ -75,13 +75,11 @@ Em vez disso, o sistema conta com uma interrupção periódica gerada por hardwa
 ---
 
 ## 🚀 Como Executar e Testar
-
-1. Certifique-se de ter a toolchain do RISC-V e o QEMU instalados.
-2. Compile e execute o xv6:
+1. Compile e execute o xv6:
    ```bash
    make qemu
    ```
-3. No prompt do xv6, execute o programa de testes:
+2. No prompt do xv6, execute o programa de testes:
    ```bash
    $ priotest
    ```
