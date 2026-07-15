@@ -16,7 +16,7 @@ Materias referentes a etapa de encontram nas pastas `/slides` e `/video`.
 
 ## ETAPA 2
 
-# xv6 Scheduler Modification with Priority
+# Modificações do Round Robin com Prioridade no xv6
 
 Este projeto apresenta a implementação de um escalonador baseado em prioridades no sistema operacional didático **xv6-riscv**. Além da alteração no algoritmo de escalonamento, foram implementadas chamadas de sistema (system calls) para consultar o estado dos processos e alterar dinamicamente suas prioridades, além de um programa de teste em espaço de usuário para validação.
 
